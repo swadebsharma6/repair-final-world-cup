@@ -55,3 +55,44 @@ header{
    background-color: #DD0000;
    color: white;
 }
+/* close the header section */
+.section-container{
+   display: flex;
+}
+.navigation{
+   padding-left: 50px;
+   border-radius: 10px;
+}
+
+.nav-container{
+   background-color: black;
+   height: 240px ;
+   width:220px ;
+   align-items: center;
+   
+}
+.nav-bar{
+   padding: 10px 30px;
+   margin-bottom: 30px;
+   border: 2px solid black;
+}
+
+.nav-bar, a{
+   text-decoration: none;
+   background-color: #DD0000;
+   color: white;
+}
+.nav-bar a:hover{
+   background-color: orange;
+}
+/* close the navigate bar */
+.up-container{
+   display: grid;
+   grid-template-columns: repeat( 3, 1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 40px;
+
+}
+.up-container{
+   padding-left: 30px;
+}
