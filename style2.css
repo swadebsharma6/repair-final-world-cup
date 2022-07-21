@@ -24,9 +24,12 @@ h1{
 /* styleing the header section */
 
 header{
-   height: 646px; 
+    height: 646px; 
+   
    margin: 30px 70px;
-  
+}
+.up-container{
+   height: 600px;
    
 }
 .container{
